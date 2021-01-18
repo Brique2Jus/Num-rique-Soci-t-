@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+}
+
+#nav_bar {
+    background-color: white;
+    width: 100%;
+}
+
+#nav_barrecouleur{
+    background-color: blueviolet;
+    height: 0.3em;
+}
+
+#nav_liens {
+    color: black;
+}
+
+#nav_liens:hover,
+#nav_titre:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#header_texte {
+    margin-bottom: 28em;
+}
+
+#header_h1 {
+    font-size: 6em;
+}
+#header_p {
+    font-size: 1.5em;
+}
+
+#btn_hautpage {
+
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+}
+#img_hautpage {
+    width: 50px;
+    height: 50px;
+}
+
+#btn_mail {
+    position: fixed;
+    bottom: 6em;
+    right: 1em;
+}
+
+#img_mail {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+#block1,
+#block2,
+#block3 {
+    background-color: black;
+    color: white;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+#btn_lien {
+    color: black;
+}
+#btn_lien:hover {
+    color: blueviolet;
+}
+
+#btn_livre {
+    background-color: white;
+    border-color: blueviolet;
+}
+
+a{
+    color: white;
+}
+
+.display-5{
+    color: blueviolet;
+}
+
+@media only screen and (min-width: 480px) {
+  /* TELEPHONE */
+    #block1{margin-left: 0em; margin-right: 0em;}
+    #block2{margin-left: 0em; margin-right: 0em;}
+    #block3{margin-left: 0em; margin-right: 0em;}
+}
+
+@media only screen and (min-width: 600px) {
+  /* TABLETTE */
+    #block1{margin-left: 1em; margin-right: 1em;}
+    #block2{margin-left: 1em; margin-right: 1em;}
+    #block3{margin-left: 1em; margin-right: 1em;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* ORDINATEUR */
+    #block1{margin-left: 15em; margin-right: 15em;}
+    #block2{margin-left: 15em; margin-right: 15em;}
+    #block3{margin-left: 15em; margin-right: 15em;}
+}
